@@ -1,0 +1,66 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main
+{
+    position: relative;
+    margin-right: 30px;
+
+    margin-left: 30px;
+    min-height: 1080px;
+    background-color: bisque;
+}
+.objects2d
+{
+    position: relative;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.container_canvas
+{
+    width: 90px;
+    margin: 6px 6px;;
+    height: 90px;
+    background-color: antiquewhite;
+}
+.container_canvas:nth-child(1)
+{
+    background-color: #2C6E96;
+}
+.container_canvas:nth-child(2)
+{
+    background-color: #ff7f1d;
+}
+
+.container_canvas:nth-child(3)
+{
+    background-color: #7ce544;
+}
+
+.container_canvas:nth-child(4)
+{
+    background-color: #ff0808;
+}
+
+.container_canvas:nth-child(5)
+{
+    background-color: #fffbfb;
+}
+
+.container_canvas:nth-child(6)
+{
+    background-color: #fff339;
+}
+canvas {
+    position: absolute;
+    
+    width: 100%;
+}
